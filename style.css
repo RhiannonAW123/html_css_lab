@@ -1,0 +1,55 @@
+body{
+   font-family: helvetica, sans-serif;
+}
+ 
+body > header {
+  background-color: rgb(44, 120, 219);
+  color: whitesmoke; 
+  display: flex;
+}
+
+.cat-story{
+    display: flex;
+}
+
+nav > ul{
+    list-style: none;
+}
+
+nav > ul > li > a{
+    color: blue;
+    margin-right: 0;
+    text-align: left;
+}
+
+#story-list {
+    float: right;
+}
+
+body > main > article{
+    clear: both;
+}
+
+
+body > footer{
+    background-color:  rgb(44, 120, 219);
+    color: whitesmoke;
+    display: flex;
+    text-align: center;
+    padding: 14px;
+
+}
+.submit-button{
+  background-color: rgb(204, 5, 38); 
+  border: 1px solid rgb(1, 43, 14);
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 5px; 
+} 
+
+#text-area{
+    height:200px;
+    font-size:14pt;
+}
+
+
